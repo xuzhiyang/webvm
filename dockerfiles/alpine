@@ -1,0 +1,4 @@
+FROM --platform=i386 alpine:latest
+# We set env, as this gets extracted by Webvm. This is optional.
+#ENV HOME="/home/user" TERM="xterm" USER="user" SHELL="/bin/sh" EDITOR="vim" LANG="en_US.UTF-8" LC_ALL="C"
+CMD [ "/bin/sh" ]
